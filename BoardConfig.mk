@@ -57,8 +57,8 @@ QCOM_BOARD_PLATFORMS += lahaina
 # Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/t2q/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := device/samsung/t2q/prebuilt/dtb
-BOARD_PREBUILT_DTBOIMAGE := device/samsung/t2q/prebuilt/recoverydtbo
-#BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_PREBUILT_DTBOIMAGE := device/samsung/t2q/prebuilt/recovery_dtbo
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 
@@ -123,7 +123,7 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := false
 BOARD_USES_METADATA_PARTITION := true
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := 6_afaneh92
+TW_DEVICE_VERSION := 7_afaneh92
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
